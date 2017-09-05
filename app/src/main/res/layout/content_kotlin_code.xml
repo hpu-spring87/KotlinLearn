@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="me.chunsheng.kotlinlearn.first.KotlinCodeActivity"
+    tools:showIn="@layout/app_bar_kotlin_code">
+
+    <br.tiagohm.markdownview.MarkdownView
+        android:id="@+id/codeMarkdownview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:escapeHtml="true" />
+
+</android.support.constraint.ConstraintLayout>

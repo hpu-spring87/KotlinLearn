@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Getting Started">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/basic_syntax"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Basic Syntax" />
+                <item
+                    android:id="@+id/idioms"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Idioms(习惯用法)" />
+                <item
+                    android:id="@+id/coding_conventions"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Coding Conventions（约定）" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Basics">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/basic_types"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Basic Types" />
+                <item
+                    android:id="@+id/packages"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Packages" />
+                <item
+                    android:id="@+id/control_flow"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Control Flow" />
+                <item
+                    android:id="@+id/returns_and_jumps"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Returns and Jumps" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Classes and Objects">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/classes_and_inheritance"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Classes and Inheritance" />
+                <item
+                    android:id="@+id/properties_and_fields"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Properties and Fields" />
+                <item
+                    android:id="@+id/interfaces"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Interfaces" />
+                <item
+                    android:id="@+id/visibility_modifiers"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Visibility Modifiers" />
+                <iteme
+                    android:id="@+id/extensions"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Extensions" />
+                <item
+                    android:id="@+id/data_classes"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Data Classes" />
+                <item
+                    android:id="@+id/sealed_classes"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Sealed Classes" />
+                <item
+                    android:id="@+id/generics"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Generics" />
+                <item
+                    android:id="@+id/nested_classes"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Nested Classes" />
+                <item
+                    android:id="@+id/enum_classes"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Enum Classes" />
+                <item
+                    android:id="@+id/object_expressions_and_declarations"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Object Expressions and Declarations" />
+                <item
+                    android:id="@+id/delegation"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Delegation" />
+                <item
+                    android:id="@+id/delegated_properties"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Delegated Properties" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Functions and Lambdas">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/functions"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Functions" />
+                <item
+                    android:id="@+id/higher_order_functions_and_lambdas"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Higher-Order Functions and Lambdas" />
+                <item
+                    android:id="@+id/inline_functions"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Inline Functions" />
+                <item
+                    android:id="@+id/coroutines"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="Coroutines" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

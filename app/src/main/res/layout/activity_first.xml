@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".first.FirstFragment">
+
+
+    <ImageView
+        android:id="@+id/bgAnimationTop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="top"
+        android:adjustViewBounds="true"
+        android:fitsSystemWindows="true"
+        android:scaleType="center"
+        app:layout_collapseMode="parallax" />
+
+    <ImageView
+        android:id="@+id/bgAnimationCenter"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:fitsSystemWindows="true"
+        android:scaleType="center"
+        app:layout_collapseMode="parallax" />
+
+    <ImageView
+        android:id="@+id/bgAnimationBottom"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:adjustViewBounds="true"
+        android:fitsSystemWindows="true"
+        android:scaleType="center"
+        app:layout_collapseMode="parallax" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/docsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/first_btn_bg"
+            android:drawableRight="@drawable/ic_call_missed_outgoing_white_24dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="官方文档"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/codeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/docsBtn"
+            android:layout_margin="10dp"
+            android:background="@drawable/first_btn_bg"
+            android:drawableRight="@drawable/ic_call_missed_outgoing_white_24dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="代码示例"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</FrameLayout>

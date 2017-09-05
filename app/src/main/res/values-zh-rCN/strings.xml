@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kotlin Docs</string>
+    <string name="title_home">Kotlin</string>
+    <string name="title_dashboard">Kotlin&amp;Android</string>
+    <string name="title_notifications">Resource</string>
+    <string name="kotlin_slogan_bak">用于现代多平台应用的静态类型编程语言</string>
+    <string name="kotlin_tips_bak">100％可与Java™和Android™互相兼容</string>
+    <string name="learn_kotlin_bak">学习 Kotlin</string>
+    <string name="title_activity_kotlin_docs">KotlinDocs</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Kotlin文档目录 中文版本-->
+
+    <!--Kotlin文档目录 中文版本-->
+
+    <string name="action_settings">切换语言</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kotlin Docs</string>
+    <string name="title_home">Kotlin</string>
+    <string name="title_dashboard">Kotlin&amp;Android</string>
+    <string name="title_notifications">Resource</string>
+    <string name="kotlin_slogan">Statically typed programming language for modern multiplatform applications</string>
+    <string name="kotlin_tips">100% interoperable with Java™ and Android™</string>
+    <string name="learn_kotlin">Learn Kotlin</string>
+    <string name="title_activity_kotlin_docs">KotlinDocs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Kotlin文档目录 英文版本-->
+
+    <!--Kotlin文档目录 英文版本-->
+
+    <string name="action_settings">Change Langue</string>
+</resources>
