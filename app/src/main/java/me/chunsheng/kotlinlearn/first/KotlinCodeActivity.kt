@@ -150,7 +150,7 @@ class KotlinCodeActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
             R.id.ch_2_5_1 -> {
                 codeMarkdownview.loadMarkdownFromAsset("chapter_02/2.5.1_TryCatchAndFinally.kt.md")
             }
-        //chapter 02
+        //chapter 03
             R.id.ch_3_1_1 -> {
                 codeMarkdownview.loadMarkdownFromAsset("chapter_03/3.1_1_CollectionsInKotlin.kt.md")
             }
@@ -166,7 +166,25 @@ class KotlinCodeActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
             R.id.ch_3_6_1 -> {
                 codeMarkdownview.loadMarkdownFromAsset("chapter_03/3.6_1_LocalFunctionsAndExtensions.kt.md")
             }
-
+        //chapter 04
+            R.id.ch_4_1_2 -> {
+                codeMarkdownview.loadMarkdownFromAsset("chapter_04/4.1.2_1_OpenFinalAbstractModifiers.kt.md")
+            }
+            R.id.ch_4_2_3 -> {
+                codeMarkdownview.loadMarkdownFromAsset("chapter_04/4.2.3_ImplementingProperties.kt.md")
+            }
+            R.id.ch_4_3_2 -> {
+                codeMarkdownview.loadMarkdownFromAsset("chapter_04/4.3.2_DataClassCopy.kt.md")
+            }
+            R.id.ch_4_3_3 -> {
+                codeMarkdownview.loadMarkdownFromAsset("chapter_04/4.3.3_ClassTheByKeyword.kt.md")
+            }
+            R.id.ch_4_4_1 -> {
+                codeMarkdownview.loadMarkdownFromAsset("chapter_04/4.4.1_ObjectDeclarations.kt.md")
+            }
+            R.id.ch_4_4_2 -> {
+                codeMarkdownview.loadMarkdownFromAsset("chapter_04/4.4.2_CompanionObjects.kt.md")
+            }
         }
 
         code_drawer_layout.closeDrawer(GravityCompat.START)

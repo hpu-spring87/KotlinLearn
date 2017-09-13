@@ -102,4 +102,35 @@
         </menu>
     </item>
 
+    <item android:title="第四章">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/ch_4_1_2"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="4.1.2_OpenFinalAbstract.kt" />
+                <item
+                    android:id="@+id/ch_4_2_3"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="4.2.3_ImplementingProperties.kt" />
+                <item
+                    android:id="@+id/ch_4_3_2"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="4.3.2_DataClassCopy.kt" />
+                <item
+                    android:id="@+id/ch_4_3_3"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="4.3.3_ClassTheByKeyword.kt" />
+                <item
+                    android:id="@+id/ch_4_4_1"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="4.4.1_ObjectDeclarations.kt" />
+                <item
+                    android:id="@+id/ch_4_4_2"
+                    android:icon="@drawable/ic_radio_button_unchecked_black_24dp"
+                    android:title="4.4.2_CompanionObjects.kt" />
+            </group>
+        </menu>
+    </item>
+
 </menu>
